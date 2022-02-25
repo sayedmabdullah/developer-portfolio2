@@ -3,20 +3,24 @@ body {
     margin: 0;
 
 }
+section{
+    margin-bottom: 150px;
+}
 
 /* Top Banner Section Design */
 h1 {
     font-size: 50px;
+}
+h2 {
+    font-size: 40px;
 }
 
 .orange-color {
     color: orange;
 }
 
-section{
+.flexible-container {
     display: flex;
-    margin-bottom: 150px;
-
 }
 .top-banner {
     background-image: url(./images/top-banner.png);
@@ -43,4 +47,40 @@ section{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+/* Experience Area Design */
+.experience-item {
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+
+    
+}
+
+#fullweb-border{
+    border-left: 8px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+#babyweb-border{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+
+/* Footer */
+
+footer p {
+    text-align: center;
 }
