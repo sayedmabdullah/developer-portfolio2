@@ -1,7 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
+
+/* Top Banner Section Design */
 h1 {
     font-size: 50px;
 }
@@ -12,6 +15,7 @@ h1 {
 
 section{
     display: flex;
+    margin-bottom: 150px;
 
 }
 .top-banner {
@@ -23,7 +27,7 @@ section{
     padding-left: 5%;
 }
 .half-width img {
-    width: 80%;
+    width: 85%;
 }
 .link-button {
     text-decoration: none;
@@ -32,4 +36,11 @@ section{
     font-weight: 400;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+/* Dream big Section design  */
+.dream-banner {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
